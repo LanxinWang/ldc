@@ -1,0 +1,13 @@
+const numberToLdcDigitsMap = new Map();
+numberToLdcDigitsMap.set("0", ["._.", "|.|", "|_|"]);
+numberToLdcDigitsMap.set("1", ["...", "..|", "..|"]);
+numberToLdcDigitsMap.set("2", ["._.", "._|", "|_."]);
+numberToLdcDigitsMap.set("3", ["._.", "._|", "._|"]);
+numberToLdcDigitsMap.set("4", ["...", "|_|", "..|"]);
+numberToLdcDigitsMap.set("5", ["._.", "|_.", "._|"]);
+numberToLdcDigitsMap.set("6", ["._.", "|_.", "|_|"]);
+numberToLdcDigitsMap.set("7", ["._.", "..|", "..|"]);
+numberToLdcDigitsMap.set("8", ["._.", "|_|", "|_|"]);
+numberToLdcDigitsMap.set("9", ["._.", "|_|", "..|"]);
+const loadLdcDigits = () => numberToLdcDigitsMap;
+module.exports = loadLdcDigits;
